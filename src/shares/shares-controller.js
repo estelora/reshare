@@ -36,6 +36,9 @@ function (sharesApi) {
     alert('No shares could be retrieved.');
   });
 
+
+
+
   self.deleteShare = function(share) {
     //get the id of the share (._id) and pass as parameter
     // When it comes to asynchronous actions (or promises),
